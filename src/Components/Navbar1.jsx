@@ -11,7 +11,7 @@ const Navbar1 = () => {
       <div className="navbar-container ideal-width">
 
         <Link to="/" className="navbar-logo">
-          <img src="/images/logo4.png" alt="DevAdee" />
+          <img src={import.meta.env.BASE_URL + "images/logo4.png"} alt="DevAdee" />
         </Link>
 
         {/* Desktop Menu */}

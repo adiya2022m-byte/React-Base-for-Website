@@ -17,7 +17,7 @@ const Tab2 = () => {
                 "A modern restaurant management platform designed to simplify daily operations, orders, tables, and customer management.",
             content:
                 "A responsive restaurant management system that helps manage menus, table bookings, customer orders, billing, and daily restaurant operations through an intuitive and easy-to-use interface.",
-            image: "/images/restaurantimg.png",
+            image: import.meta.env.BASE_URL + "images/restaurantimg.png",
         },
         {
             id: "tab2",
@@ -26,7 +26,7 @@ const Tab2 = () => {
                 "A clean and interactive dashboard for monitoring products, stock levels, sales, and inventory performance.",
             content:
                 "An inventory management dashboard built to provide a clear overview of products, available stock, low-stock items, sales activity, and inventory data. The interface focuses on usability, organization, and quick access to important information.",
-            image: "/images/inventoryDashboardimg.png",
+            image:import.meta.env.BASE_URL + "images/inventoryDashboardimg.png",
         },
         {
             id: "tab3",
@@ -35,7 +35,7 @@ const Tab2 = () => {
                 "A professional platform designed to manage NGO activities, campaigns, donations, and community initiatives.",
             content:
                 "An NGO management platform that presents organizational information, social initiatives, donation campaigns, ongoing projects, and community activities in a structured and engaging way. The website is designed to build trust and make important information easily accessible.",
-            image: "/images/ngoimg.png",
+            image: import.meta.env.BASE_URL + "images/ngoimg.png",
         },
         {
             id: "tab4",
@@ -44,7 +44,7 @@ const Tab2 = () => {
                 "A visually engaging travel platform for exploring destinations, travel packages, and personalized trip experiences.",
             content:
                 "A responsive travel agency website created to showcase destinations, tour packages, travel services, and booking information. The design focuses on attractive visuals, simple navigation, and an engaging experience for travelers.",
-            image: "/images/travelimg2.png",
+            image: import.meta.env.BASE_URL + "images/travelimg2.png",
         },
     ];
 

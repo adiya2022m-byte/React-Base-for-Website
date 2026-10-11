@@ -53,7 +53,7 @@ const Footer1 = () => {
                     <div className="lg:col-span-2">
 
                         <Link to="/" className="navbar-logo">
-                            <img src="/images/logo4.png" alt="DevAdee" />
+                            <img src={import.meta.env.BASE_URL + "images/logo4.png"} alt="DevAdee" />
                         </Link>
 
                         <p className="max-w-md text-white/55 leading-7">

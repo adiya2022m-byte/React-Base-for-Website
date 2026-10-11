@@ -684,8 +684,6 @@ footer .icon-box a {
 
 @media (max-width: 991px) {
 
-  
-
   .hero-container {
     grid-template-columns: 1fr;
     gap: 60px;
@@ -700,8 +698,7 @@ footer .icon-box a {
     margin-right: auto;
   }
 
-  .hero-buttons,
-  .hero-tech {
+  .hero-buttons {
     justify-content: center;
   }
 
@@ -794,11 +791,6 @@ footer .icon-box a {
 
   .hero-content p {
     font-size: 15px;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-    width: 100%;
   }
 
   .btn-primary,

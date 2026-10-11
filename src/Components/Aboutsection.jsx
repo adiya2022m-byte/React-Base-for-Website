@@ -41,7 +41,7 @@ const Aboutsection = () => {
                     </div>
                 </div>
                 <div className='aboutgrids2' style={{ padding: '0', height: 'fit-content' }}>
-                    <img className='aboutimg' src="public/images/aboutmeImg.jpg" alt="" />
+                    <img className='aboutimg' src= {import.meta.env.BASE_URL + "images/aboutmeImg.jpg"} alt="About Me" />
                     <div style={{ padding: '20px', marginBottom: '20px', textAlign: 'justify' }}>
                         <h3>Skill Tech Stack</h3>
                         <div className="skill-grid" >

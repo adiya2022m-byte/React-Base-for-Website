@@ -45,7 +45,7 @@ const About = () => {
                         </div>
 
                         <img
-                            src="/images/aboutmeImg.jpg"
+                            src={import.meta.env.BASE_URL + "images/aboutmeImg.jpg"}
                             alt="About me"
                             className="relative z-10 h-[400px] w-full rounded-3xl object-cover md:h-[500px]"
                         />

@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Hero1 = () => {
 
@@ -22,13 +22,13 @@ const Hero1 = () => {
                     </p>
 
                     <div className="hero-buttons">
-                        <a href="#projects" className="btn-primary">
+                        <Link to="/project" className="btn-primary">
                             View My Work <span>↗</span>
-                        </a>
+                        </Link>
 
-                        <a href="#contact" className="btn-secondary">
+                        <Link to="/contact" className="btn-secondary">
                             Hire Me!
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
