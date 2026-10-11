@@ -1,0 +1,24 @@
+1. Basic Components - Button, Navbar, Footer, Input, LoaderBasic
+
+2. Pages - Home, About, Contact, 404
+
+3. Tailwind CSS - already setup
+
+4. Icons - lucide-react best hai, react-icons se zyada light h
+
+5. aiaxios - API ke liye
+
+6. GSAP - thik hai rakh lo, tumhe animation pasand hai
+
+7. swiper - carousel ke liye
+
+8. react-router-dom - page change ke liye must hai
+
+9. Ek assets folder jisme 1-2 dummy fonts aur logo ho
+
+10. Lucide icons
+
+some best wesite design https://www.rev.com/
+
+free website for learn call API ---- https://picsum.photos/v2/list?page=2&limit=10
+free website for learn call API ---- https://jsonplaceholder.typicode.com/photos?_limit=50
