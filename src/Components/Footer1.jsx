@@ -180,7 +180,7 @@ const Footer1 = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
                         <a
-                            href="mailto:hello@devadee.com"
+                            href="mailto:adiya2022m@gmail.com"
                             className="group flex items-center gap-4"
                         >
                             <div className="w-11 h-11 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#283981] transition-colors">
@@ -192,14 +192,14 @@ const Footer1 = () => {
                                     Email
                                 </p>
                                 <p className="text-sm text-white/70 group-hover:text-white transition-colors">
-                                    hello@devadee.com
+                                    adiya2022m@gmail.com
                                 </p>
                             </div>
                         </a>
 
 
                         <a
-                            href="tel:+919999999999"
+                            href="tel:+919264918773"
                             className="group flex items-center gap-4"
                         >
                             <div className="w-11 h-11 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#283981] transition-colors">
@@ -211,7 +211,7 @@ const Footer1 = () => {
                                     Phone
                                 </p>
                                 <p className="text-sm text-white/70 group-hover:text-white transition-colors">
-                                    +91 99999 99999
+                                    +91 92649 18773
                                 </p>
                             </div>
                         </a>
