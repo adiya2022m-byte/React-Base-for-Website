@@ -31,7 +31,7 @@ const Footer1 = () => {
                         </div>
 
                         <Link to="https://wa.me/9264918773" 
-                        className="group inline-flex gap-2 items-center rounded-full bg-[#e8e8e8] !px-7 !py-3 font-semibold !text-[#1f2d68]">
+                        className="group inline-flex gap-2 items-center justify-center rounded-full bg-[#e8e8e8] !px-7 !py-3 font-semibold !text-[#1f2d68]">
                          Let's Talk 
                          <MoveUpRight
                          size={17} 

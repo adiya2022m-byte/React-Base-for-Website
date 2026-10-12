@@ -44,7 +44,7 @@ const services = [
 const ServicesSection = () => {
     return (
         <div>
-            <div className="w-full border-t border-[#1f2a5c] !my-12"></div>  
+            <div className="w-full border-t border-[#1f2a5c] md:!my-12 !my-6"></div>  
             <div className="ideal-width !py-[50px]">
 
                 {/* Heading */}
