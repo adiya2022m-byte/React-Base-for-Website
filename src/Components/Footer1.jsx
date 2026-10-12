@@ -70,22 +70,22 @@ const Footer1 = () => {
                         <div className="icon-box !mt-8">
 
                             <a
-                                href="#"
-                                aria-label="Instagram"
+                                href="https://www.linkedin.com/in/aditya-mishra-2016v"
+                                aria-label="Linkedin"
                                 className="footer-icon"
                             >
                                 <FaLinkedinIn size={18} />
                             </a>
                             <a
-                                href="#"
+                                href="https://www.instagram.com/adee_vishnu/"
                                 aria-label="Instagram"
                                 className="footer-icon"     
                             >
                                 <FaInstagram size={18} />
                             </a>
                             <a
-                                href="#"
-                                aria-label="Instagram"
+                                href="https://wa.me/9264918773"
+                                aria-label="Wshatsapp"
                                 className="footer-icon"
                             >
                                 <FaWhatsapp size={18} />
