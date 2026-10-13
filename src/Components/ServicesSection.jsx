@@ -58,10 +58,10 @@ const ServicesSection = () => {
                             </span>
                         </div>
 
-                        <h2 className="max-w-xl text-4xl font-semibold leading-[1.15] tracking-tight text-[#151515] md:text-5xl lg:text-6xl">
+                        <h3 className="max-w-xl text-4xl font-semibold leading-[1.15] tracking-tight text-[#151515] md:text-5xl lg:text-6xl">
                             Turning ideas into
                             <span className="text-[#283981]"> digital experiences.</span>
-                        </h2>
+                        </h3>
                     </div>
 
                     <div className="lg:justify-self-end lg:max-w-md">

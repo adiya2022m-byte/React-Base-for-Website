@@ -661,7 +661,7 @@ footer .icon-box a {
   position: absolute;
   aspect-ratio: 1;
   border-radius: 50%;
-  background-color: rgba(40, 57, 129, 0.1);
+  background-color: #2839811a;
   filter: blur(3rem);
   pointer-events: none;
 }
@@ -678,6 +678,25 @@ footer .icon-box a {
   bottom: -35%;
   width: 256px;
   background-color: rgba(90, 112, 207, 0.1);
+}
+
+/* ======================== FAQ's =================== */
+.hoverRing {
+  position: absolute;
+  right: -20%;
+  top: -20%;
+  height: 256px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 45px solid rgba(255, 255, 255, 0.06);
+  transition: transform .7s linear;
+  pointer-events: none;
+  transform: scale(1);
+}
+
+.bgRing:hover .hoverRing {
+  transform: scale(1.1);
+
 }
 
 /* =========== RESPONSIVE =========== */
@@ -719,6 +738,7 @@ footer .icon-box a {
   .navbar-logo img {
     width: 7rem;
   }
+
   .firstsecPT {
     padding-top: 100px;
   }
@@ -828,5 +848,8 @@ footer .icon-box a {
   .card-two {
     right: -5px;
     bottom: 20px;
+  }
+  .FAQ .blurDiv1 {
+    top: -5%;
   }
 }
