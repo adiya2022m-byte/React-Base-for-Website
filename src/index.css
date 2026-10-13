@@ -849,6 +849,21 @@ footer .icon-box a {
     right: -5px;
     bottom: 20px;
   }
+
+  .aboutgrids3 {
+    display: flex;
+  }
+
+  .aboutgrids3 h3 {
+    font-size: 16px !important;
+    line-height: 1.21em;
+    letter-spacing: 0.5px;
+  }
+
+  .aboutgrids3 p {
+    font-size: 1.6rem !important;
+  }
+
   .FAQ .blurDiv1 {
     top: -5%;
   }

@@ -112,7 +112,7 @@ const AccordionFaq = () => {
                                     </span>
                                 </h3>
 
-                                <p className="!mt-5 !mb-3 max-w-sm text-sm leading-7 text-blue-100 sm:text-base">
+                                <p className="!mt-5 !mb-3 max-w-sm text-sm leading-7 !text-[#ffffff7a] sm:text-base">
                                     If you don't find the answer you're looking for,
                                     feel free to reach out. I'm always happy to help!
                                 </p>
@@ -124,7 +124,7 @@ const AccordionFaq = () => {
                                     <div className="!mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-white/10">
                                         <Zap size={19} />
                                     </div>
-                                    <p className="text-xs leading-5 text-blue-100 sm:text-sm">
+                                    <p className="text-xs leading-5 !text-[#ffffff7a] sm:text-sm">
                                         Quick
                                         <br />
                                         Response
@@ -135,7 +135,7 @@ const AccordionFaq = () => {
                                     <div className="!mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-white/10">
                                         <ShieldCheck size={19} />
                                     </div>
-                                    <p className="text-xs leading-5 text-blue-100 sm:text-sm">
+                                    <p className="text-xs leading-5 !text-[#ffffff7a] sm:text-sm">
                                         Reliable
                                         <br />
                                         Support
@@ -146,7 +146,7 @@ const AccordionFaq = () => {
                                     <div className="!mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-white/10">
                                         <Heart size={19} />
                                     </div>
-                                    <p className="text-xs leading-5 text-blue-100 sm:text-sm">
+                                    <p className="text-xs leading-5 !text-[#ffffff7a] sm:text-sm">
                                         Your Success
                                         <br />
                                         Matters
@@ -174,7 +174,7 @@ const AccordionFaq = () => {
                                                 setOpenIndex(isOpen ? -1 : index)
                                             }
                                             aria-expanded={isOpen}
-                                            className="flex w-full items-center gap-4 px-5 py-5 text-left sm:px-6"
+                                            className="group flex w-full items-center gap-4 px-5 py-5 text-left sm:px-6"
                                         >
                                             <span
                                                 className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-sm font-bold transition-colors duration-300 ${isOpen
@@ -185,7 +185,7 @@ const AccordionFaq = () => {
                                                 {String(index + 1).padStart(2, "0")}
                                             </span>
 
-                                            <span className="flex-1 text-sm font-semibold leading-6 text-[#151b32] sm:text-base">
+                                            <span className="flex-1 text-sm font-semibold leading-6 text-[#151b32] sm:text-base group-hover:text-white">
                                                 {faq.question}
                                             </span>
 
